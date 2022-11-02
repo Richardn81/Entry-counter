@@ -1,0 +1,57 @@
+body{
+    background-image: url("train-station.jfif");
+    background-size: cover;
+    font-family: 'Lobster', cursive, Roboto, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:bold;
+    text-align:center;
+    height:100vh;
+}
+h1{
+    margin-top:10px;
+    margin-bottom:10px;
+    color: darkblue;
+    text-shadow: -5px -2px gray;
+}
+
+h2{
+    font-size: 50px;
+    margin-top:0;
+    margin-bottom: 20px;
+}
+button{
+    border:2px solid yellow;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:white;
+    font-weight:bold; 
+    width:200px;
+    margin-bottom:5px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    color:blue;
+    font-weight:bold;
+    font-size: medium;
+    transform:scale(1.2)
+}
+#increment-btn{
+    background:#6161dd;
+
+}
+#save-btn{
+    background:rgb(68, 112, 68);
+}
+#save-el{
+    font-weight:bold;
+    font-size: large;
+}
+.container{
+    max-width:80%;
+    background:white;
+    margin: auto;
+    border: 3px solid black; 
+    border-radius:10px;
+    margin-top:8rem;
+}
